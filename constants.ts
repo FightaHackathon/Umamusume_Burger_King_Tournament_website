@@ -1,4 +1,3 @@
-
 import type { Team, Host, NavLink } from './types';
 
 export const NAV_LINKS: NavLink[] = [
@@ -15,7 +14,7 @@ export const MOCK_TEAMS: Team[] = [
     {
         id: 1,
         name: 'Team Leftovers', 
-        logoUrl: 'public/images/leftovers_logo.jpg',
+        logoUrl: '/images/leftovers_logo.jpg', // Ensure file is strictly lowercase on disk
         description: 'Save the best for the last!',
         members: [
             { 
@@ -125,7 +124,7 @@ Specialty: Social Skills, Creative`
             { 
                 name: 'Paco', 
                 role: 'Runner', 
-                avatarUrl: 'public/images/paco.png', 
+                avatarUrl: '/images/paco.png', 
                 bio: `About me: Brings consistent speed and unwavering determination to the track.
 
 Likes:
@@ -174,8 +173,8 @@ Specialty: Eating at sushi buffets`
     {
         id: 2,
         name: 'Team Fanboy_69',
-        logoUrl: 'public/images/fanboy_69_logo.jpg',
-        description: 'Make everybody happy', 
+        logoUrl: '/images/fanboy_69_logo.jpg',
+        description: 'Make everybody happy',
         members: [
             {
                 name: 'Depression',
@@ -191,7 +190,7 @@ About me:
             {
                 name: 'Flamy_Jamie21xx',
                 role: 'Runner',
-                avatarUrl: 'public/images/jamie.png',
+                avatarUrl: '/images/jamie.png',
                 bio: `Likes
 Food,making ocs,Men,a bunch more 
 Dislikes
@@ -248,7 +247,7 @@ About me:
     {
         id: 3,
         name: 'Team Hierarchs',
-        logoUrl: 'public/images/hierarchs_logo.jpg',
+        logoUrl: '/images/hierarchs_logo.jpg',
         description: 'Surpass the limits, uphold the legacy.',
         members: [
             { 
@@ -300,7 +299,7 @@ About me:
     {
         id: 4,
         name: 'Crimson Seraphs',
-        logoUrl: 'public/images/crimson_seraphs_logo.jpg',
+        logoUrl: '/images/crimson_seraphs_logo.jpg', // FIXED: removed 'public'
         description: 'Wings of crmison, hearts of fire.',
         members: [
             { 
@@ -363,7 +362,7 @@ About me:
     {
         id: 5,
         name: 'Team Guinea Pigs',
-        logoUrl: 'public/images/theguinea_pigs_logo.jpg',
+        logoUrl: '/images/theguinea_pigs_logo.jpg', // FIXED: removed 'public'
         description: 'Glory,experiment, win where racing is an experiment.',
         members: [
             {
@@ -380,7 +379,7 @@ About me:
             { 
                 name: 'XStealth', 
                 role: 'Vice Captain', 
-                avatarUrl: 'public/images/stealth.png', 
+                avatarUrl: '/images/stealth.png', // FIXED: removed 'public'
                 bio: `Likes:
 Aviation, racing, photography, graphic design, soccer, basketball, anime
 Dislikes:
@@ -391,7 +390,7 @@ Other than being a graphic designer and race Steward, glad to be apart of a grea
             {
                 name: 'MajorMuffin',
                 role: 'Runner',
-                avatarUrl: 'public/images/muffin.png',
+                avatarUrl: '/images/muffin.png', // FIXED: removed 'public'
                 bio: `Likes
 American Football
 baseball
@@ -484,13 +483,13 @@ About me:
     {
         id: 6,
         name: 'Team Gluttony',
-        logoUrl: 'public/images/team_gluttony_logo.jpg',
+        logoUrl: '/images/team_gluttony_logo.jpg', // FIXED: removed 'public'
         description: 'We eat the competitors.',
         members: [
             { 
                 name: 'Hachiro', 
                 role: 'Captain', 
-                avatarUrl: 'public/images/hachiro.png', 
+                avatarUrl: '/images/hachiro.png', // FIXED: removed 'public'
                 bio: `About me:
 
 I'm easy going and like eating. I have no negative outlook on any of the teams, but I do hope the Leftovers are doing well.
@@ -506,7 +505,7 @@ Annoyances, cocky and egotistical people, olives on their own`
             {
                 name: 'FrostedTyl3r',
                 role: 'Runner',
-                avatarUrl: 'public/images/tyler.png',
+                avatarUrl: '/images/tyler.png', // FIXED: removed 'public'
                 bio: `Likes:
 Food (Yuri) taking pictures of everything.
 Dislikes:
@@ -517,7 +516,7 @@ well I am fun to play with and I scream a lot😋🤕`
             {
                 name: 'Vegan_enemy',
                 role: 'Runner',
-                avatarUrl: 'public/images/vegan.png',
+                avatarUrl: '/images/vegan.png', // FIXED: removed 'public'
                 bio: `Likes
 Mashed potatoes, farming games, and junk journaling
 Dislikes
@@ -584,7 +583,7 @@ export const MOCK_HOSTS: Host[] = [
         name: 'Stealth',
         role: 'Announcer/Steward',
         bio: 'Race Steward and League announcer. Part of Team Guinea Pigs and glad to be apart of the community and team.',
-        imageUrl: 'public/images/stealth_main.jpg'
+        imageUrl: '/images/stealth_main.jpg' // FIXED: removed 'public'
     },
     {
         name: 'Cairo',
