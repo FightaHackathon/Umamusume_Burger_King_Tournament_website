@@ -15,7 +15,7 @@ export const MOCK_TEAMS: Team[] = [
     {
         id: 1,
         name: 'Team Leftovers', 
-        logoUrl: '/images/leftovers_logo.jpeg',
+        logoUrl: '/images/leftovers_logo.jpg',
         description: 'Save the best for the last!',
         members: [
             { 
@@ -174,7 +174,7 @@ Specialty: Eating at sushi buffets`
     {
         id: 2,
         name: 'Team Fanboy_69',
-        logoUrl: '/images/fanboy_69_logo.jpeg',
+        logoUrl: '/images/fanboy_69_logo.jpg',
         description: 'Make everybody happy', 
         members: [
             {
@@ -248,7 +248,7 @@ About me:
     {
         id: 3,
         name: 'Team Hierarchs',
-        logoUrl: '/images/hierarchs_logo.jpeg',
+        logoUrl: '/images/hierarchs_logo.jpg',
         description: 'Surpass the limits, uphold the legacy.',
         members: [
             { 
@@ -300,7 +300,7 @@ About me:
     {
         id: 4,
         name: 'Crimson Seraphs',
-        logoUrl: '/images/crimson_seraphs_logo.jpeg',
+        logoUrl: '/images/crimson_seraphs_logo.jpg',
         description: 'Wings of crmison, hearts of fire.',
         members: [
             { 
@@ -363,7 +363,7 @@ About me:
     {
         id: 5,
         name: 'Team Guinea Pigs',
-        logoUrl: '/images/the_guinea_pigs_logo.jpeg',
+        logoUrl: '/images/theguinea_pigs_logo.jpg',
         description: 'Glory,experiment, win where racing is an experiment.',
         members: [
             {
@@ -484,7 +484,7 @@ About me:
     {
         id: 6,
         name: 'Team Gluttony',
-        logoUrl: '/images/team_gluttony_logo.jpeg',
+        logoUrl: '/images/team_gluttony_logo.jpg',
         description: 'We eat the competitors.',
         members: [
             { 
@@ -583,7 +583,7 @@ export const MOCK_HOSTS: Host[] = [
     {
         name: 'Stealth',
         role: 'Announcer/Steward',
-        bio: 'Race Steward and League announcer. Part of Team Guinea Pigs and glad to be apart of the community and team.', 
+        bio: 'Race Steward and League announcer. Part of Team Guinea Pigs and glad to be apart of the community and team.',
         imageUrl: '/images/stealth_main.jpg'
     },
     {
