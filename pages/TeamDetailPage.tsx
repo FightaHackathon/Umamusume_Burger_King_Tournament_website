@@ -3,8 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { MOCK_TEAMS } from '../constants';
 import type { Player } from '../types';
 import Section from '../components/Section';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 const TeamDetailPage: React.FC = () => {
     const { teamId } = useParams<{ teamId: string }>();
@@ -23,7 +21,7 @@ const TeamDetailPage: React.FC = () => {
     if (!team) {
         return (
             <>
-                <Header />
+                
                 <div className="text-center py-20 animate-fade-in-up">
                     <h1 className="text-4xl font-bold text-uma-dark-green dark:text-uma-light-green">Team Not Found</h1>
                     <p className="mt-4 text-lg text-uma-brown dark:text-gray-300">The team you're looking for doesn't exist.</p>
@@ -31,14 +29,14 @@ const TeamDetailPage: React.FC = () => {
                         Back to All Teams
                     </Link>
                 </div>
-                <Footer />
+                
             </>
         );
     }
 
     return (
         <>
-            <Header />
+            
             <div className="animate-fade-in-up">
                 {/* Team Header */}
                 <div className="relative text-center p-8 md:p-12 bg-white/60 dark:bg-uma-bg-dark-secondary/60 backdrop-blur-md rounded-2xl shadow-xl border border-white/30 dark:border-uma-light-green/20 mb-12">
@@ -92,7 +90,7 @@ const TeamDetailPage: React.FC = () => {
                     </div>
                 </Section>
             </div>
-            <Footer />
+            
         </>
     );
 };
