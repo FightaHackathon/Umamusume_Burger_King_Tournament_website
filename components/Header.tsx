@@ -21,7 +21,7 @@ const Header: React.FC = () => {
                     <div className="flex-shrink-0">
                         <a href="#/" className="flex items-center text-2xl md:text-3xl font-extrabold text-white tracking-wider" style={{ textShadow: '2px 2px 0px #FFC107, 4px 4px 0px #2E7D32' }}>
                             <img src={logo} alt="Uma BK League Logo" className="h-12 w-12 mr-3" />
-                            Uma BK League
+                            IURA
                         </a>
                     </div>
 
