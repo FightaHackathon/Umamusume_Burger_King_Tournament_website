@@ -18,10 +18,10 @@ const HomePage: React.FC = () => {
                 <div className="text-center py-12 px-4 bg-white/60 dark:bg-uma-bg-dark-secondary/60 backdrop-blur-md rounded-2xl shadow-xl border border-white/30 dark:border-uma-light-green/20">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-uma-dark-green dark:text-uma-light-green">
                         Welcome to the
-                        <span className="block text-uma-green dark:text-uma-green mt-2">Uma BK League Tournament!</span>
+                        <span className="block text-uma-green dark:text-uma-green mt-2">International Umamusume Racing Association Tournament!</span>
                     </h1>
                     <p className="mt-6 max-w-2xl mx-auto text-lg text-uma-brown dark:text-gray-300 font-semibold">
-                        A VRChat racing league for Umamusume fans, promoting community and competitive spirit through thrilling seasonal races.
+                        The IURA League are Vrchat Umamusume tournaments that are based around racecourses around the world. These tournaments have simple mechanics for the racers to come out on top on our different tracks and lengths. These help promote a great way of engagement within our community and competitive spirit. Our league follows a season and planned schedule. We have 6 teams with all unique members wanting to reach the top!
                     </p>
                     <a href="#/teams" className="mt-8 inline-block bg-gradient-to-b from-uma-yellow to-uma-gold text-uma-brown font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white hover:animate-pulse-bright">
                         Meet The Teams

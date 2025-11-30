@@ -25,7 +25,7 @@ const NewsletterPage: React.FC = () => {
 
             <div className="animate-fade-in-up">
 
-                <Section title="The Uma BK Times - Issue #1">
+                <Section title="The IURA Times - Issue #1">
 
                     <div className="max-w-4xl mx-auto bg-white/60 dark:bg-uma-bg-dark-secondary/60 backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-xl border border-white/30 dark:border-uma-light-green/20">
 
