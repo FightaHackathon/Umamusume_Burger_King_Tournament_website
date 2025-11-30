@@ -31,10 +31,4 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    npm run dev
    ```
 
-The application will be available at `http://localhost:3000`.
 
-## 🚀 Deployment
-
-This application is configured to be deployed using Google's AI Studio.
-
-**View your app in AI Studio:** https://ai.studio/apps/drive/1kDU4Rxv8iyzTZ21xPE-F3tmB0o8FNqxe
