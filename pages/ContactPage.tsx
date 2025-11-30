@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import Section from '../components/Section';
 
 interface LeaderImage {
@@ -34,7 +32,6 @@ const ContactPage: React.FC = () => {
 
     return (
         <>
-            <Header />
             <div className="animate-fade-in-up">
                 <div className="text-center py-12 px-4 bg-white/60 dark:bg-uma-bg-dark-secondary/60 backdrop-blur-md rounded-2xl shadow-xl border border-white/30 dark:border-uma-light-green/20">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-uma-dark-green dark:text-uma-light-green">
@@ -111,7 +108,6 @@ const ContactPage: React.FC = () => {
                     </div>
                 </div>
             )}
-            <Footer />
         </>
     );
 };

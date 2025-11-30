@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { NAV_LINKS } from '../constants';
 import MenuIcon from './icons/MenuIcon';
 import CloseIcon from './icons/CloseIcon';
-import logo from '../images/newlogo.png';
+import logo from '/images/newlogo.png';
 import { NavLink } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 

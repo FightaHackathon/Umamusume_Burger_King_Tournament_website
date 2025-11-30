@@ -1,18 +1,14 @@
 import React from 'react';
 import Section from '../components/Section';
 import { MOCK_HOSTS } from '../constants';
-import banner from '../images/uma_banner.jpg';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 const HomePage: React.FC = () => {
     return (
         <>
-            <Header />
             <div className="animate-fade-in-up">
                 <div className="mb-8">
                      <img 
-                        src={banner} 
+                        src="/images/uma_banner.jpg" 
                         alt="Uma BK League Banner" 
                         className="w-full rounded-xl shadow-lg border-4 border-uma-yellow object-cover" 
                         style={{ aspectRatio: '3 / 1' }}
@@ -64,7 +60,6 @@ const HomePage: React.FC = () => {
                     </div>
                 </Section>
             </div>
-            <Footer />
         </>
     );
 };

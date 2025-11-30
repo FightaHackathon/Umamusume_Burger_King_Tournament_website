@@ -5,19 +5,15 @@ import React from 'react';
 
 import Section from '../components/Section';
 
-import umaMvp from '../images/uma-mvp.jpg';
+import umaMvp from '/images/uma-mvp.jpg';
 
-import kingRace from '../images/king-racecourse.jpg';
+import kingRace from '/images/king-racecourse.jpg';
 
-import hierarchsRebrand from '../images/hierarchs-rebranding.jpg';
+import hierarchsRebrand from '/images/hierarchs-rebranding.jpg';
 
-import leftoversRebrand from '../images/leftovers-rebranding.jpg';
+import leftoversRebrand from '/images/leftovers-rebranding.jpg';
 
-import debutDelayed from '../images/debut-race-delayed.jpg';
-
-import Header from '../components/Header';
-
-import Footer from '../components/Footer';
+import debutDelayed from '/images/debut-race-delayed.jpg';
 
 
 
@@ -26,8 +22,6 @@ const NewsletterPage: React.FC = () => {
     return (
 
         <>
-
-            <Header />
 
             <div className="animate-fade-in-up">
 
@@ -250,8 +244,6 @@ const NewsletterPage: React.FC = () => {
                 </Section>
 
             </div>
-
-            <Footer />
 
         </>
 

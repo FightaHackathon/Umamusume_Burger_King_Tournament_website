@@ -15,7 +15,7 @@ export const MOCK_TEAMS: Team[] = [
     {
         id: 1,
         name: 'Team Leftovers', 
-        logoUrl: '/images/leftovers_logo.jpg',
+        logoUrl: 'public/images/leftovers_logo.jpg',
         description: 'Save the best for the last!',
         members: [
             { 
@@ -125,7 +125,7 @@ Specialty: Social Skills, Creative`
             { 
                 name: 'Paco', 
                 role: 'Runner', 
-                avatarUrl: '/images/paco.png', 
+                avatarUrl: 'public/images/paco.png', 
                 bio: `About me: Brings consistent speed and unwavering determination to the track.
 
 Likes:
@@ -174,7 +174,7 @@ Specialty: Eating at sushi buffets`
     {
         id: 2,
         name: 'Team Fanboy_69',
-        logoUrl: '/images/fanboy_69_logo.jpg',
+        logoUrl: 'public/images/fanboy_69_logo.jpg',
         description: 'Make everybody happy', 
         members: [
             {
@@ -191,7 +191,7 @@ About me:
             {
                 name: 'Flamy_Jamie21xx',
                 role: 'Runner',
-                avatarUrl: '/images/jamie.png',
+                avatarUrl: 'public/images/jamie.png',
                 bio: `Likes
 Food,making ocs,Men,a bunch more 
 Dislikes
@@ -248,7 +248,7 @@ About me:
     {
         id: 3,
         name: 'Team Hierarchs',
-        logoUrl: '/images/hierarchs_logo.jpg',
+        logoUrl: 'public/images/hierarchs_logo.jpg',
         description: 'Surpass the limits, uphold the legacy.',
         members: [
             { 
@@ -300,7 +300,7 @@ About me:
     {
         id: 4,
         name: 'Crimson Seraphs',
-        logoUrl: '/images/crimson_seraphs_logo.jpg',
+        logoUrl: 'public/images/crimson_seraphs_logo.jpg',
         description: 'Wings of crmison, hearts of fire.',
         members: [
             { 
@@ -363,7 +363,7 @@ About me:
     {
         id: 5,
         name: 'Team Guinea Pigs',
-        logoUrl: '/images/theguinea_pigs_logo.jpg',
+        logoUrl: 'public/images/theguinea_pigs_logo.jpg',
         description: 'Glory,experiment, win where racing is an experiment.',
         members: [
             {
@@ -380,7 +380,7 @@ About me:
             { 
                 name: 'XStealth', 
                 role: 'Vice Captain', 
-                avatarUrl: '/images/stealth.png', 
+                avatarUrl: 'public/images/stealth.png', 
                 bio: `Likes:
 Aviation, racing, photography, graphic design, soccer, basketball, anime
 Dislikes:
@@ -391,7 +391,7 @@ Other than being a graphic designer and race Steward, glad to be apart of a grea
             {
                 name: 'MajorMuffin',
                 role: 'Runner',
-                avatarUrl: '/images/muffin.png',
+                avatarUrl: 'public/images/muffin.png',
                 bio: `Likes
 American Football
 baseball
@@ -484,13 +484,13 @@ About me:
     {
         id: 6,
         name: 'Team Gluttony',
-        logoUrl: '/images/team_gluttony_logo.jpg',
+        logoUrl: 'public/images/team_gluttony_logo.jpg',
         description: 'We eat the competitors.',
         members: [
             { 
                 name: 'Hachiro', 
                 role: 'Captain', 
-                avatarUrl: '/images/hachiro.png', 
+                avatarUrl: 'public/images/hachiro.png', 
                 bio: `About me:
 
 I'm easy going and like eating. I have no negative outlook on any of the teams, but I do hope the Leftovers are doing well.
@@ -506,7 +506,7 @@ Annoyances, cocky and egotistical people, olives on their own`
             {
                 name: 'FrostedTyl3r',
                 role: 'Runner',
-                avatarUrl: '/images/tyler.png',
+                avatarUrl: 'public/images/tyler.png',
                 bio: `Likes:
 Food (Yuri) taking pictures of everything.
 Dislikes:
@@ -517,7 +517,7 @@ well I am fun to play with and I scream a lot😋🤕`
             {
                 name: 'Vegan_enemy',
                 role: 'Runner',
-                avatarUrl: '/images/vegan.png',
+                avatarUrl: 'public/images/vegan.png',
                 bio: `Likes
 Mashed potatoes, farming games, and junk journaling
 Dislikes
@@ -578,13 +578,13 @@ export const MOCK_HOSTS: Host[] = [
         name: 'Stirfry',
         role: 'Owner/Race Director',
         bio: 'More information coming soon!',
-        imageUrl: '/images/stirfry_profile.png'
+        imageUrl: 'https://www-animeherald-com.exactdn.com/wp-content/uploads/2025/05/Cinderella-Gray-Header.jpeg?strip=all'
     },
     {
         name: 'Stealth',
         role: 'Announcer/Steward',
         bio: 'Race Steward and League announcer. Part of Team Guinea Pigs and glad to be apart of the community and team.',
-        imageUrl: '/images/stealth_main.jpg'
+        imageUrl: 'public/images/stealth_main.jpg'
     },
     {
         name: 'Cairo',

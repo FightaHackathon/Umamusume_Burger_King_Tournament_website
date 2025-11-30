@@ -1,13 +1,10 @@
 
 import React from 'react';
 import Section from '../components/Section';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 const TournamentSchedulePage: React.FC = () => {
     return (
         <>
-            <Header />
             <div className="animate-fade-in-up">
                 <Section title="Tournament Schedule">
                     <div className="max-w-2xl mx-auto bg-white/60 dark:bg-uma-bg-dark-secondary/60 backdrop-blur-md p-8 md:p-12 rounded-2xl shadow-xl text-center border border-white/30 dark:border-uma-light-green/20">
@@ -21,7 +18,6 @@ const TournamentSchedulePage: React.FC = () => {
                     </div>
                 </Section>
             </div>
-            <Footer />
         </>
     );
 };
