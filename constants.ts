@@ -183,7 +183,7 @@ Specialty- Social Butterfly and helping make a chaotic environment a bit more ch
 About me- I’m a long time VR Chat player who’s been around since 2019! I found the Uma BK group recently and it’s been the most fun I’ve had in years on the platform! I’m usually laid back, relaxed or sleeping though I’m always open to chat with anyone! Let’s all fish sometime, yeah?`
             },
             {
-                name: 'marz',
+                name: 'Marz',
                 role: 'Runner',
                 avatarUrl: '/images/marz.png',
                 bio: `Likes: Animation, Art, Genshin Impact, Murder Drones, The Owl House, Sly Cooper, Plushies, Human Made Things
