@@ -144,7 +144,7 @@ Specialty: Consistency, Determination`
             },
             { 
                 name: 'Mickey1107', 
-                role: 'Runner', 
+                role: 'Trainer', 
                 avatarUrl: 'https://gametora.com/images/umamusume/characters/chara_stand_1008_100801.png', 
                 bio: `About me: I'm 17 My birthday is November 13th so I'll be 18 by the time this goes on the website. I'm from New York, I'm Orthodox and I absolutely love sleeping with a thin fuzzy blanket in an ice cold room with a sleep mask on and melatonin. I also love going to horse tracks and feeding horses peppermints and learning their cute names.
 
@@ -168,6 +168,30 @@ Hobbies:
 
 Specialty: Eating at sushi buffets`
             },
+            {
+                name: 'Chocominty',
+                role: 'Runner',
+                avatarUrl: '/images/chocom.png',
+                bio: `I like- Gaming, Composing Music, Talking with friends and new people, Singing, Music, and most of all: sleeping!
+
+I dislike- Loud noises, Tension, Bullies, Spicy food and the Cold
+
+Hobbies- Making Unity projects, Composing music, Gaming, Singing and being Social!
+
+Specialty- Social Butterfly and helping make a chaotic environment a bit more chill.
+
+About me- I’m a long time VR Chat player who’s been around since 2019! I found the Uma BK group recently and it’s been the most fun I’ve had in years on the platform! I’m usually laid back, relaxed or sleeping though I’m always open to chat with anyone! Let’s all fish sometime, yeah?`
+            },
+            {
+                name: 'marz',
+                role: 'Runner',
+                avatarUrl: '/images/marz.png',
+                bio: `Likes: Animation, Art, Genshin Impact, Murder Drones, The Owl House, Sly Cooper, Plushies, Human Made Things
+Dislikes: Politics, Grape-Flavored Foods, Live Action Movies, AI
+Hobbies: Art/Drawing, Singing, Gaming, Avatar Making (sometimes)
+Specialty: Racing
+About me: A silly non-binary person who loves to hang out with people. I draw and make art under the name "YouSeaMarz" (taking commissions too), wanting to make my own show one day. I found Umamusume from Stirfry and he bugged me to play. Now I play the game when I work out at the gym and maining a screaming orange uma.`
+            }
         ],
     },
     {
@@ -524,17 +548,7 @@ Artificial strawberry flavor snacks
 About me:
 I’m here to have fun!`
             },
-            {
-                name: 'Chocominty',
-                role: 'Runner',
-                avatarUrl: 'https://picsum.photos/seed/Chocominty/100',
-                bio: `Likes:
 
-Dislikes:
-
-About me:
-`
-            },
             {
                 name: 'BDBonnie',
                 role: 'Runner',
