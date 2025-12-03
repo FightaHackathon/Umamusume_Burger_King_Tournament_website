@@ -189,7 +189,7 @@ About me- I’m a long time VR Chat player who’s been around since 2019! I fou
                 bio: `Likes: Animation, Art, Genshin Impact, Murder Drones, The Owl House, Sly Cooper, Plushies, Human Made Things
 Dislikes: Politics, Grape-Flavored Foods, Live Action Movies, AI
 Hobbies: Art/Drawing, Singing, Gaming, Avatar Making (sometimes)
-Specialty: Racing
+Specialty: Being a professional gremlin
 About me: A silly non-binary person who loves to hang out with people. I draw and make art under the name "YouSeaMarz" (taking commissions too), wanting to make my own show one day. I found Umamusume from Stirfry and he bugged me to play. Now I play the game when I work out at the gym and maining a screaming orange uma.`
             }
         ],
