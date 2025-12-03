@@ -1,7 +1,7 @@
 
-# Uma BK League Tournament Website
+# IURA Tournament Website
 
-This repository contains the source code for the official website of the Uma BK League Tournament, a community-driven racing event inspired by *Umamusume: Pretty Derby*.
+This repository contains the source code for the official website of the IURA Tournament, a community-driven racing event inspired by *Umamusume: Pretty Derby*.
 
 The website is the central hub for all tournament information, including team rosters, event schedules, race results, and more.
 
