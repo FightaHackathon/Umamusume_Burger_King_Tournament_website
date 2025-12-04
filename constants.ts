@@ -191,6 +191,20 @@ Dislikes: Politics, Grape-Flavored Foods, Live Action Movies, AI
 Hobbies: Art/Drawing, Singing, Gaming, Avatar Making (sometimes)
 Specialty: Being a professional gremlin
 About me: A silly non-binary person who loves to hang out with people. I draw and make art under the name "YouSeaMarz" (taking commissions too), wanting to make my own show one day. I found Umamusume from Stirfry and he bugged me to play. Now I play the game when I work out at the gym and maining a screaming orange uma.`
+            },
+            {
+                name: 'F1rst1sTheW0rst',
+                role: 'Runner',
+                avatarUrl: '/images/W0rst.png',
+                bio: `About me: I love art because it's perceived differently by everyone. I spend most of my free time participating in creative projects, and if not I'm usually out trying to meet new people! Umamusume is like all my favorite things in one so it's sick there's other people who like it too! (I'm also the lead vocalist in a band that'll go unnamed until further notice)
+
+Hobbies: Poetry, songwriting, music composition, Painting, Character design, creative writing, singing 
+
+Likes: Deathcore, clothing alteration, body mods, heavy metal, alt rock
+
+Dislikes: Foods with more than 9 ingredients, cats, Winter time
+
+Specialty: Musical performance, Horror art`
             }
         ],
     },
